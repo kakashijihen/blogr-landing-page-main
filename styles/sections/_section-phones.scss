@@ -2,7 +2,7 @@
 
 .section_phones{
     background: {
-        image: url(/images/bg-pattern-circles.svg),linear-gradient(180deg, variables.$GradientVerydarkgrayblue, variables.$GradientVerydarkdesaturatedblue);
+        image: url("../../images/bg-pattern-circles.svg"),linear-gradient(180deg, variables.$GradientVerydarkgrayblue, variables.$GradientVerydarkdesaturatedblue);
         size: 170%;
         repeat:no-repeat;
         position: -130px -240px, 0px 0px;
