@@ -2,7 +2,7 @@
 
 .section_top{
     background: {
-        image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(180deg, variables.$GradientVerylightred,variables.$GradientLightred);
+        image: url('../../images/bg-pattern-intro-mobile.svg'), linear-gradient(180deg, variables.$GradientVerylightred,variables.$GradientLightred);
         position: center;
         size: 250%;
     }
@@ -60,7 +60,6 @@
     p{
         color: variables.$White;
         padding: 1em;
-        text-align: center;
         font: {
             size: 1.1em;
             family: variables.$Overpass;
@@ -152,7 +151,7 @@ nav{
 }
 .active{
     #logo_hamburger{
-        content: url(/images/icon-close.svg);
+        content: url("../../images/icon-close.svg");
     }  
     nav{
         display: flex;
