@@ -110,7 +110,7 @@ li {
 }
 
 .section_top {
-  background-image: url("../../images/bg-pattern-intro-mobile.svg"), linear-gradient(180deg, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
+  background-image: url("../images/bg-pattern-intro-mobile.svg"), linear-gradient(180deg, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
   background-position: center;
   background-size: 250%;
   height: 70vh;
@@ -277,7 +277,7 @@ nav a {
 }
 
 .section_phones {
-  background-image: url("../../images/bg-pattern-circles.svg"), linear-gradient(180deg, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
+  background-image: url("../images/bg-pattern-circles.svg"), linear-gradient(180deg, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
   background-size: 170%;
   background-repeat: no-repeat;
   background-position: -130px -240px, 0px 0px;
