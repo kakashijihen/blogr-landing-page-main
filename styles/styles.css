@@ -362,7 +362,7 @@ nav a {
     position: relative;
   }
   .section_top__nav_links_item img {
-    content: url("../../images/icon-arrow-light.svg");
+    content: url("../images/icon-arrow-light.svg");
   }
   .section_top__nav_links_item div {
     position: absolute;
@@ -411,6 +411,7 @@ nav a {
   }
   .section_top__cta p {
     color: hsl(0deg, 0%, 100%);
+    text-align: center;
   }
   .section_top__cta__btn {
     width: 30%;
