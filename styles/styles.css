@@ -248,7 +248,7 @@ nav a {
 }
 
 .active #logo_hamburger {
-  content: url("../../images/icon-close.svg");
+  content: url("../images/icon-close.svg");
 }
 .active nav {
   display: flex;
@@ -362,7 +362,7 @@ nav a {
     position: relative;
   }
   .section_top__nav_links_item img {
-    content: url(".../../images/icon-arrow-light.svg");
+    content: url("../../images/icon-arrow-light.svg");
   }
   .section_top__nav_links_item div {
     position: absolute;
