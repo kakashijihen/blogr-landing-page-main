@@ -1,0 +1,106 @@
+@use './variables';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 5em;
+}
+h1{
+    font-size: 2.2em;
+    color: variables.$White;
+    font-family: variables.$Ubuntu;
+    font-weight: 400;
+}
+.section_editor img,.section_phones img,.section_laptop img{
+    width: 100%;
+}
+
+h2{
+    font-size: 1.4em;
+    font-family: variables.$Ubuntu;
+    font-weight: 700;
+    color: variables.$Verydarkblue;
+}
+
+button,a{
+    cursor: pointer;
+}
+
+.info{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+h3{
+    font-size: 2em;
+    font-family: variables.$Overpass;
+    font-weight: 600;
+    color: variables.$White;
+}
+
+footer{
+    background-color: variables.$Verydarkblackblue;
+    color: variables.$White;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2.5em 0em;
+    border-radius: 0 100px 0 0;
+    li{
+        a{
+            text-decoration: none;
+            color: rgba($color: variables.$White, $alpha: .713);
+        }
+    }
+}
+
+.logo-footer{
+    width: 90px;
+}
+
+ul{
+    font-family: variables.$Ubuntu;
+    font-weight: 400;
+    div{
+        background-color: rgba($color: variables.$Grayishblue, $alpha: .241);
+        padding: 1em;
+        border-radius: 5px;
+        display: none;           
+    }  
+}
+
+h4{
+    padding-bottom: 1em;
+}
+
+li{
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.attribution{
+    font-size: 14px;
+    a{
+        color: variables.$White;
+        font-family: variables.$Overpass;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    p{
+        font-family: variables.$Overpass;
+        font-weight: 300;
+    }
+}

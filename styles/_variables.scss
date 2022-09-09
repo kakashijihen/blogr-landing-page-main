@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*Colors*/
+$Lightred: hsl(356, 100%, 66%);//CTA text
+$Verylightred: hsl(355, 100%, 74%);//CTA hover background
+$Verydarkblue: hsl(208, 49%, 24%);//headings
+$White: hsl(0, 0%, 100%);//text
+$Grayishblue: hsl(240, 3%, 79%); //footer text
+$Verydarkgrayishblue: hsl(207, 13%, 34%);//body copy
+$Verydarkblackblue: hsl(240, 10%, 16%);//footer background
+
+/*Gradients*/
+
+$GradientVerylightred: hsl(13, 100%, 72%);
+$GradientLightred: hsl(353, 100%, 62%);
+
+$GradientVerydarkgrayblue: hsl(237, 17%, 21%);
+$GradientVerydarkdesaturatedblue: hsl(237, 23%, 32%);
+
+/*Fonts*/
+$Overpass:'Overpass', sans-serif;
+$Ubuntu:'Ubuntu', sans-serif;
+
+/*Others*/
+$paddingContainer:80px 0;

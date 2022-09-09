@@ -1,0 +1,18 @@
+@use '../variables';
+
+.section_laptop{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5em;
+    p{
+        font-size: 1em;
+        font-family: variables.$Overpass;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: variables.$GradientVerydarkgrayblue;
+    }
+}

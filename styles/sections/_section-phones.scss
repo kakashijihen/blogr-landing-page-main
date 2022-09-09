@@ -1,0 +1,29 @@
+@use '../variables';
+
+.section_phones{
+    background: {
+        image: url(/images/bg-pattern-circles.svg),linear-gradient(180deg, variables.$GradientVerydarkgrayblue, variables.$GradientVerydarkdesaturatedblue);
+        size: 170%;
+        repeat:no-repeat;
+        position: -130px -240px, 0px 0px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    height: 75vh;
+    border-radius: 0 100px 0 100px;
+    margin-top: 10em;
+    img{
+        margin-top: -50%;
+    }
+    p{
+        font-size: 1em;
+        line-height: 1.5em;
+        color: rgba($color: variables.$White, $alpha: .755);
+        font-family: variables.$Overpass;
+        font-weight: 300;
+        margin-bottom: 8em;
+    }
+}

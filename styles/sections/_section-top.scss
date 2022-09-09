@@ -1,0 +1,169 @@
+@use '../variables';
+
+.section_top{
+    background: {
+        image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(180deg, variables.$GradientVerylightred,variables.$GradientLightred);
+        position: center;
+        size: 250%;
+    }
+    height: 70vh;
+    border-radius: 0 0 0 100px;
+    position: relative;
+    &__logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 2em auto;
+    }
+    &__nav_links{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        width: 100%;
+        button{
+            margin-bottom: 1em;
+        }        
+    }
+    &__cta{
+      width: 90%;
+      margin: auto;
+      margin-top: 7em; 
+      &__btn{
+        width: 100%;
+        margin: 1em auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        a{
+            font: {
+                size: 1em;
+                family: variables.$Ubuntu;
+                weight: 700;
+            }
+            text-decoration: none;
+            padding: 1em;
+            border-radius: 100px;            
+            &:nth-of-type(1){
+                background-color: variables.$White;
+                color: variables.$Lightred;
+            }
+            &:nth-of-type(2){
+                border: 1px solid variables.$White;
+                color: variables.$White;
+            }
+        }
+      } 
+    }
+    p{
+        color: variables.$White;
+        padding: 1em;
+        text-align: center;
+        font: {
+            size: 1.1em;
+            family: variables.$Overpass;
+            weight: 300;
+        }
+    }
+    &__nav_btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap:0.5em;
+        button{
+            &:nth-of-type(1){
+                width: 50%;
+                padding: 0.8em;
+                margin-top: 1em;
+            }
+            &:nth-of-type(2){
+                background-image: linear-gradient(90deg, variables.$GradientLightred,variables.$GradientLightred);
+                width: 50%;
+                padding: 0.8em;
+                color: variables.$White;
+                border-radius: 50px;
+            }
+            
+        }
+      
+    }
+}
+
+nav{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: variables.$White;
+    position: absolute;
+    border-radius: 5px;
+    right: 1em;
+    padding: 1.5em;
+    width: 90%;
+    ul{
+        text-align: center;
+        width: 90%;
+        margin: auto;     
+    }
+    button{
+        width: 100%;
+        font: {
+            size: 1em;
+            family:variables.$Overpass;
+            weight: 600;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border: none;
+        background: none;
+        img{
+            padding: 0 0.5em;
+        }
+        a{
+            cursor: pointer;
+        }
+    }
+    li{
+        width: 100%;
+        line-height: 2em;
+    }
+    a{
+        text-decoration: none;
+        color: variables.$Verydarkgrayishblue;
+        font-weight: 500;
+    }
+}
+
+.divider{
+    width: 100%;
+    margin: 1em auto;
+    height: 1px;
+    background: rgba($color: #000000, $alpha: .2);
+}
+
+#logo_hamburger{
+    cursor: pointer;
+}
+.active{
+    #logo_hamburger{
+        content: url(/images/icon-close.svg);
+    }  
+    nav{
+        display: flex;
+    }
+}
+
+.open{
+    div{
+        display: block;
+    }
+    img{
+        transform: rotate(180deg);
+    }
+}
